@@ -1,0 +1,6 @@
+<h1>Welcome Bakery!</h1>
+<ng-container *ngIf="startSection">
+<label for="bunCount">Bun Count:</label>
+<input name="bunCount" type="number" [(ngModel)]="bunCount">
+<button (click)="Start()">Start</button>
+</ng-container>
